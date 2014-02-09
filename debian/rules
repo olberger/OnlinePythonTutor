@@ -9,8 +9,11 @@ export DH_OPTIONS
 
 
 %:
-#	dh $@ --with python2
 	dh $@ --with python2
+
+override_dh_fixperms:
+	dh_fixperms
+	chmod go+x debian/online-python-tutor-backend/usr/lib/cgi-bin/opt/web_exec.py
 
 # Much borrowed from https://wiki.debian.org/onlyjob/get-orig-source :
 
