@@ -42,11 +42,12 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 //var python3_backend_script = 'web_exec_py3.py';
 
 // uncomment below if you're running on Google App Engine using the built-in app.yaml
-var python2_backend_script = 'exec';
-var python3_backend_script = 'exec';
+//var python2_backend_script = 'exec';
+var python2_backend_script = '/cgi-bin/online-python-tutor-backend/web_exec.py';
+//var python3_backend_script = 'exec';
 
 // KRAZY experimental KODE!!! Use a custom hacked CPython interpreter
-var python2crazy_backend_script = 'web_exec_py2-crazy.py';
+//var python2crazy_backend_script = 'web_exec_py2-crazy.py';
 // On Google App Engine, simply run dev_appserver.py with the
 // crazy custom py2crazy CPython interpreter to get 2crazy mode
 //var python2crazy_backend_script = 'exec';
