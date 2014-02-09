@@ -14,9 +14,11 @@
 
 import cgi
 import json
-import pg_logger
 import sys
 
+# Make sure that the app's modules are available, as where they got installed by the Debian package
+sys.path.insert(0, '/usr/share/online-python-tutor-backend/')
+import pg_logger
 
 # set to true if you want to log queries in DB_FILE 
 LOG_QUERIES = False
