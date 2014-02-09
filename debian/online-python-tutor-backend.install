@@ -1,3 +1,12 @@
-v3/web_exec.py /usr/lib/cgi-bin/opt/
+v3/web_exec.py /usr/lib/cgi-bin/online-python-tutor-backend/
 v3/pg_logger.py /usr/share/online-python-tutor-backend/
 v3/pg_encoder.py /usr/share/online-python-tutor-backend/
+v3/callback_module.py /usr/share/online-python-tutor-backend/
+v3/ttt_module.py /usr/share/online-python-tutor-backend/
+v3/html_module.py /usr/share/online-python-tutor-backend/
+#watch_module.py /usr/share/online-python-tutor-backend/
+v3/bintree_module.py /usr/share/online-python-tutor-backend/
+v3/htmlexample_module.py /usr/share/online-python-tutor-backend/
+v3/GChartWrapper/* /usr/share/online-python-tutor-backend/GChartWrapper/
+v3/matrix.py /usr/share/online-python-tutor-backend/
+v3/htmlFrame.py /usr/share/online-python-tutor-backend/

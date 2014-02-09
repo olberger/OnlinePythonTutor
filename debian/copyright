@@ -11,6 +11,18 @@ License: <special license>
  .
  <Including paragraphs>
 
+Files: v3/GChartWrapper/* : https://code.google.com/p/google-chartwrapper/
+
+jquery.corner.js !
+
+jsplumb !
+
+jquery.ba-bbq !
+
+qtip !
+
+codemirror (need 2.33 not yet in Debian) !
+
 # If you want to use GPL v2 or later for the /debian/* files use 
 # the following clauses, or change it to suit. Delete these two lines
 Files: debian/*

@@ -1,2 +1,4 @@
-/usr/lib/cgi-bin/opt/
+/usr/lib/cgi-bin/online-python-tutor-backend/
 /usr/share/online-python-tutor-backend/
+/usr/share/online-python-tutor-backend/GChartWrapper/
+/usr/share/online-python-tutor-frontend/www/

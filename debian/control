@@ -2,7 +2,7 @@ Source: online-python-tutor
 Section: unknown
 Priority: optional
 Maintainer: Olivier Berger <obergix@debian.org>
-Build-Depends: debhelper (>= 8.0.0)
+Build-Depends: debhelper (>= 8.0.0), dh-apache2
 Standards-Version: 3.9.4
 Homepage: <insert the upstream URL, if relevant>
 #Vcs-Git: git://git.debian.org/collab-maint/online-python-tutor.git
@@ -23,7 +23,8 @@ Description: <insert up to 60 chars description>
 
 Package: online-python-tutor-frontend
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, libjs-d3, libjs-jquery, libjs-jquery-ui
+Recommends: ${misc:Recommends}
 Suggests: online-python-tutor-backend
 Description: <insert up to 60 chars description>
  <insert long description, indented with spaces>
