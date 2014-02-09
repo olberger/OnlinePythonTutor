@@ -53,7 +53,8 @@ var python2_backend_script = '/cgi-bin/online-python-tutor-backend/web_exec.py';
 //var python2crazy_backend_script = 'exec';
 
 
-var domain = "http://pythontutor.com/"; // for deployment
+//var domain = "http://pythontutor.com/"; // for deployment
+var domain = "http://localhost/online-python-tutor/"; // for deployment
 //var domain = "http://localhost:8080/"; // for Google App Engine local testing
 
 
