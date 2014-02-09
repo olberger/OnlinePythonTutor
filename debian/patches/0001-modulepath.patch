@@ -1,0 +1,25 @@
+From: Olivier Berger <obergix@debian.org>
+Date: Sun, 9 Feb 2014 19:50:34 +0100
+Subject: modulepath
+
+---
+ v3/web_exec.py | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+diff --git a/v3/web_exec.py b/v3/web_exec.py
+index 191cf24..ed44d36 100644
+--- a/v3/web_exec.py
++++ b/v3/web_exec.py
+@@ -14,9 +14,11 @@
+ 
+ import cgi
+ import json
+-import pg_logger
+ import sys
+ 
++# Make sure that the app's modules are available, as where they got installed by the Debian package
++sys.path.insert(0, '/usr/share/online-python-tutor-backend/')
++import pg_logger
+ 
+ # set to true if you want to log queries in DB_FILE 
+ LOG_QUERIES = False

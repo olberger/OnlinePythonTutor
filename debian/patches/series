@@ -1,3 +1,5 @@
-
-modulepath.patch
-shebang.patch
+0001-modulepath.patch
+0002-shebang.patch
+0003-Packaged-dependencies.patch
+0004-Backend-CGI-script-path.patch
+0005-Use-local-backend.patch
