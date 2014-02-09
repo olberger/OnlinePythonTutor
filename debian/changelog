@@ -1,0 +1,5 @@
+online-python-tutor (3~git59a556a-1) unstable; urgency=low
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Olivier Berger <obergix@debian.org>  Thu, 06 Feb 2014 11:17:06 +0100

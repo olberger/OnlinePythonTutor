@@ -1,0 +1,3 @@
+v3/web_exec.py /usr/lib/cgi-bin/opt/
+v3/pg_logger.py /usr/share/online-python-tutor-backend/
+v3/pg_encoder.py /usr/share/online-python-tutor-backend/
