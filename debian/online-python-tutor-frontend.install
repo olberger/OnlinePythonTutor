@@ -21,3 +21,7 @@ v3/iframe-embed.html /usr/share/online-python-tutor-frontend/www/
 v3/js/iframe-embed.js /usr/share/online-python-tutor-frontend/www/js/
 v3/iframe-embed-demo.html /usr/share/online-python-tutor-frontend/www/
 v3/example-code/*.txt /usr/share/online-python-tutor-frontend/www/example-code/
+v3/example-code/linked-lists/*.txt /usr/share/online-python-tutor-frontend/www/example-code/linked-lists/
+v3/example-code/aliasing/*.txt /usr/share/online-python-tutor-frontend/www/example-code/aliasing/
+v3/example-code/closures/*.txt /usr/share/online-python-tutor-frontend/www/example-code/closures/
+v3/example-code/chris-meyers/*.txt /usr/share/online-python-tutor-frontend/www/example-code/chris-meyers/
